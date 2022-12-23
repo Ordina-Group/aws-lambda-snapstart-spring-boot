@@ -1,4 +1,4 @@
-package be.ordina.jworks.lambda.snapstart.lambda;
+package be.ordina.jworks.lambda.snapstart.functions;
 
 import be.ordina.jworks.lambda.snapstart.service.DataService;
 import org.springframework.stereotype.Component;
