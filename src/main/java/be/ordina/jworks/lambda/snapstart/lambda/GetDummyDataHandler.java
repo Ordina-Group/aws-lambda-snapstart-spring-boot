@@ -1,9 +1,11 @@
 package be.ordina.jworks.lambda.snapstart.lambda;
 
 import be.ordina.jworks.lambda.snapstart.service.DataService;
+import org.springframework.stereotype.Component;
 
 import java.util.function.Supplier;
 
+@Component
 public class GetDummyDataHandler implements Supplier<String> {
     private DataService dataService;
 
